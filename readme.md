@@ -32,7 +32,7 @@ docker run -d -p 3000:3000 -v ${PWD}:/usr/src/app miapp-node
 or 
 
 ```bash
-docker run -it -p 3000:3000 -v %cd%\miapp-node:/app miapp-node
+docker run -it -p 3000:3000 -v %cd%:/usr/src/app miapp-node
 ```
 
 4. Accede a la aplicación en tu navegador en `http://localhost:3000`.
